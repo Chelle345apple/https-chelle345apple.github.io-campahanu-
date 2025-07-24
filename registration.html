@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8"/>
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css"/>
+    </head>
+<body>
+    <nav>
+  <ul class="navbar">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="registration.html">Registration</a></li>
+    <li><a href="cabinlife.html">Cabin Life</a></li>
+    <li><a href="activities.html">Activities</a></li>
+    <li><a href="explorecamp.html">Explore Camp</a></li>
+    <li><a href="healthcarecornerhtml">Healthcare Corner</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contactus.html">Contact Us</a></li>
+  </ul>
+</nav>
+    <h1>Registration Form:</h1>
+
+    <p>Registration for Camp 2025 is closed. Register now for Camp 2026
+        by completing the form below. Half of tuition is due Jan. 6th, 2026.
+        The remaining balance is due March 30th, 2026.
+    </p>
+
+    <form action="#" method="post">
+        <label for="camper-name">Camper's Full Name</label><br />
+        <input type="text" id="camper-name" required /><br />
+        
+         <label for="parent-name">Parent/Guardian Name:</label><br />
+      <input type="text" id="parent-name" name="parent-name" required /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="phone">Phone Number:</label><br />
+      <input type="tel" id="phone" name="phone" required /><br /><br />
+
+      <label for="age">Camper's Age:</label><br />
+      <input type="number" id="age" name="age" min="5" max="17" /><br /><br />
+
+       <label for="shirt-size">T-Shirt Size:</label><br />
+      <select id="shirt-size" name="shirt-size">
+        <option value="">--Please choose an option--</option>
+        <option value="Youth Small">Youth Small</option>
+        <option value="Youth Medium">Youth Medium</option>
+        <option value="Youth Large">Youth Large</option>
+        <option value="Adult Small">Adult Small</option>
+        <option value="Adult Medium">Adult Medium</option>
+        <option value="Adult Large">Adult Large</option>
+      </select><br /><br />
+
+       <p>Choose Session:</p>
+      <input type="radio" id="session1" name="session" value="Session 1" />
+      <label for="session1">Session 1 (June 15–June 28)</label><br />
+
+      <input type="radio" id="session2" name="session" value="Session 2" />
+      <label for="session2">Session 2 (July 6–July 19)</label><br /><br />
+
+      <label for="notes">Special Needs or Comments:</label><br />
+      <textarea id="notes" name="notes" rows="4" cols="40"></textarea><br /><br />
+
+      <input type="submit" value="Submit Registration" />
+
+    </form>  
+</body>  
+</html>  
